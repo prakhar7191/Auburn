@@ -1,0 +1,20 @@
+#JSGF V1.0;
+
+grammar com.sarf.talkingjava.example;
+
+
+public <startExample> = (please | My name is sarf | What is your Name | Open Firefox | Open notepad | Open grammar | Where do you study | Want to have some fun | Please to meet you ) *;
+public <what> = ( what )( is | are | do | am ) [ I ]( your name | your gender | the current time | doing right now ) *;
+public <who>  = ( ( who ) ( is | are )( your father | your creator | your  mother | your favourite actor ) * ) ;
+public <which> =( which is your favourite ) ( color | song | movie | game ) *;
+public <dodontyou> = ( ( Do you ) ( like | love | watch | play | like to | have | hate | remember ) ( me | football | cricket | basketball | movies | tv shows | sports | your family | to sing | singing | brain | a brain | hanging out with friends ) ( our last chat ) * );
+public <can_cant_you> = ( can | Can't ) ( you ) ( think | help )( us | me ) *;
+public <tell_me> = ( Tell me ) [ about ] ( a joke | something funny | something you like | your family ) *;
+public <are>= ( are )( you smart | we friends ) *;
+public <how> = ( how )( do you feel talking to me | are you | was your day ) *;
+public <chicken> = ( did ) [ the ] ( chicken come first or ) [ the ] ( egg ) *;
+public <I> = ( I ) ( want to )( like you | love you | hate you | kill you | take you on date ) *;
+public <maths> = ( can | would )( you help me in studies ) *;
+public <endExample> = ( Hello )[ thanks | there ]( Bye );
+
+
