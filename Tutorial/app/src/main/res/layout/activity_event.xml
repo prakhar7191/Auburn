@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000051"
+    tools:context="com.example.kalyan.tutorial.EventActivity">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/backgroundVideo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_outline"
+        android:hint="Title"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:id="@+id/event_title"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_outline"
+        android:hint="Date"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/event_title"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:id="@+id/event_date"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_outline"
+        android:hint="Time"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/event_date"
+        android:padding="5dp"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:id="@+id/event_time"></TextView>
+</RelativeLayout>
